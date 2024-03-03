@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NieR: Automata ™</title>
+
+    <link rel="shortcut icon" href="img/fav.icon" type="image/x-icon">
 
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,10 +22,10 @@
     <main>
         <section id="login">
 
-            <div id="imagens">
-                
+            <div id="imagens">  
 
             </div>
+          
 
             <div id="formulario">
                 <h1>Login</h1>
@@ -28,30 +35,33 @@
                 <form action="login.php" method="post" autocomplete="on">
                      <div id="campo">
                         <span class="material-symbols-outlined">account_circle</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Entre com seu email" autocomplete="email" required maxlength="14">
+                        <input type="email" name="login" id="ilogin" placeholder="Entre com seu email" autocomplete="email" required maxlength="90">
                         <label for="ilogin"></label>
                      </div>
 
                     <div id="campo">
                         <span class="material-symbols-outlined">encrypted</span>
-                        <input type="password" name="senha" id="isenha" placeholder="Entre com sua senha" autocomplete="current-password" required minlength="7" maxlength="14">  
+                        <input type="password" name="senha" id="isenha" placeholder="Entre com sua senha" autocomplete="current-password" required minlength="8" maxlength="16">  
                         <label for="isenha"></label>  
                     </div>
 
                     <div>
                         <input type="submit" value="Entrar">
-                         <a href="esqueci.html" class="botao">
-                                 Esqueci a senha  <span class="material-symbols-outlined">mail</span>
+                         <a href="esqueci.html" class="botao"> 
+                            Esqueci a senha  <span class="material-symbols-outlined">mail</span>
                         </a>
                     
                     </div>
+                    
+                
                 </form>
+                <div id="logo">
+                    <img src="img/square-enix-logo.png" alt="">
+                    </div>
+               
             </div>
-
         </section>
     </main>
-
-
     
 </body>
 </html>
