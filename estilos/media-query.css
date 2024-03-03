@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #logo {
         display: none; 
+    }
+
+    body {
+        font-size: 14px;
     }
 }
 
