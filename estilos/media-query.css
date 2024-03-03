@@ -1,21 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 768px)  {
     #logo {
         display: none; 
     }
 
-    section#login {
-        width: 80%;
-        height: 80vh;
-    }
-}
-
-@media screen and (max-width: 768px) and (orientation: portrait) {
-    section#login {
-        width: 90%;
-        height: 90vh;
-    }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){
