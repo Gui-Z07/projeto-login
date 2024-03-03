@@ -4,7 +4,6 @@
     #logo {
         display: none; 
     }
-
     
 }
 
@@ -35,7 +34,7 @@
 
     div#campo > input{
         border: 0px;
-        width: 220px;  
+        width: 210px;  
         height: 30px;
         transform: translateY(-8px);
         border-radius: 3px;

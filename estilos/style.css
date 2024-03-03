@@ -75,6 +75,7 @@ form > div#campo{
     padding: 10px;
     
     
+    
 }
 
 div#campo > label{
@@ -82,7 +83,7 @@ div#campo > label{
 }
 
 div#campo > span{
-    font-size: 1.8em;
+    font-size: 1.7em;
     width: 40px;
     padding: 5px;
     
@@ -95,7 +96,7 @@ div#campo > input{
     transform: translateY(-10px);
     border-radius: 3px;
     margin-bottom: 7px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 
@@ -132,15 +133,11 @@ form > div > a.botao{
         cursor: pointer;
     }
 
-    #banner{
+    #logo{
         background-image: url(../img/square-enix-logo.png) no-repeat;
-        background-size: cover; /* para cobrir todo o espaço */
+        background-size: cover; 
     
     }
 
-    section#login > div#banner{
-        display: block;
-        background-image: url(../img/square-enix-logo.png) no-repeat;
-    }
-
+   
     
