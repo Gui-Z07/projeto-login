@@ -12,6 +12,13 @@
     }
 }
 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    section#login {
+        width: 90%;
+        height: 90vh;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     section#login{
